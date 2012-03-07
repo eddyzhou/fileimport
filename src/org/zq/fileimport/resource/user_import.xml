@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<tableConfigure>
+ <tableName>user_info</tableName>
+ <hasTitle>true</hasTitle>
+ <columns>
+  <column name="username" type="string" canBeNull="false" maxlength="50" validate="null" expresstion=""/>
+  <column name="password" type="string" canBeNull="false" maxlength="50" validate="null" expresstion=""/>
+  <column name="age" type="number" canBeNull="true" maxlength="3" validate="null" expresstion=""/>
+  <column name="email" type="string" canBeNull="true" maxlength="50" validate="email" expresstion=""/>
+ </columns>
+</tableConfigure>
+</config>
